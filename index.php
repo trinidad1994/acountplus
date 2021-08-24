@@ -1,4 +1,4 @@
-<?php
+<php
 function obtenerIP () {
    if ( filter_var( $_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP ) ) {
       return $_SERVER['HTTP_CLIENTE_IP'];
@@ -12,4 +12,4 @@ function obtenerIP () {
    else {
       return $_SERVER['REMOTE_ADDR'];
    }
-?>
+>
